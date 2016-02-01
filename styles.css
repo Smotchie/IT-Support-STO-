@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.jumbotron h1 {
+    text-align: center;
+    font-family: monospace;
+}
+.subtitle {
+    text-align: center;
+    font-family: monospace;
+}
+.navbar-default a {
+    font-family: monospace;
+    margin-left: 24em;
+    text-decoration: none;
+}
+.hello {
+    margin-left: 2.2em;
+    font-family: monospace, sans-serif;
+}
+
+.firstpage {
+    margin-left: 4em;
+    font-family: monospace, sans-serif;
+}
+.h3contact {
+    margin-left: 2em;
+    font-family: monospace, sans-serif;
+}
+.faqp {
+    margin-left: 4em;
+    font-family:monospace, sans-serif;
+}
+.aboutp {
+    margin-left: 4em;
+    font-family: monospace, sans-serif;
+}
+.contactp {
+    margin-left: 4em;
+    font-family: monospace, sans-serif;
+}
