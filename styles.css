@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -10,11 +11,12 @@
     text-align: center;
     font-family: monospace;
 }
-.navbar-default a {
+/*.navbar-default a {
     font-family: monospace;
     margin-left: 24em;
     text-decoration: none;
-}
+}*/
+
 .hello {
     margin-left: 2.2em;
     font-family: monospace, sans-serif;

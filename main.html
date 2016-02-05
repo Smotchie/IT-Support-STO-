@@ -10,7 +10,6 @@
 	$(function() {
 	  $('a[href*=#]:not([href=#])').click(function() {
 	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-
 	      var target = $(this.hash);
 	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
 	      if (target.length) {
@@ -24,7 +23,7 @@
 	});
 	</script>
     </head>
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<!-- <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 	<ul class="nav navbar-nav">
 		<li class="active">
@@ -40,7 +39,30 @@
 			<a href="#about">Kontakt</a>
 		</li>
 	</ul>
+</nav> -->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<!-- Brand and toggle get grouped for better mobile display -->
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="#">IT-Supoort STO</a>
+	</div>
+
+	<!-- Collect the nav links, forms, and other content for toggling -->
+	<div class="collapse navbar-collapse navbar-ex1-collapse">
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="#">Hem</a></li>
+			<li><a href="#">FAQ</a></li>
+            <li><a href="#">Om oss</a></li>
+            <li><a href="#">Kontakt</a></li>
+		</ul>
+	</div><!-- /.navbar-collapse -->
 </nav>
+
 
 <div class="jumbotron">
 	<div class="container">
@@ -90,7 +112,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h3 class="h3contact">Kontakt</h3>
-                        <p class="contactp">Ni kan nå oss via mail eller telefon. <br> Telefon:   <br> Mail:   </p>
+                        <p class="contactp">Ni kan nå oss via mail eller telefon. <br> Telefon:   <br> Mail: info@it-supportsto.se  </p>
                 </div>
             </div>
         </div>
@@ -108,10 +130,8 @@
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-73236430-1', 'auto');
   ga('send', 'pageview');
-
 </script>
 </body>
 </html>
