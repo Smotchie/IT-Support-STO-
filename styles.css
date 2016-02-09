@@ -1,27 +1,33 @@
+.home-section{
+    color: white;
+   
+}
 
-* {
-    margin: 0;
-    padding: 0;
+h1{
+    border-bottom: 3px solid white;
 }
 .jumbotron h1 {
+    margin: 0 auto;
     text-align: center;
     font-family: monospace;
+    color: grey;
+    width: 50%
 }
 .subtitle {
-    text-align: center;
+    margin: 0 auto;
     font-family: monospace;
+    width:44%;
 }
-/*.navbar-default a {
-    font-family: monospace;
+.navbar-default a {
+    font-family: monospace, sans-serif;
     margin-left: 24em;
     text-decoration: none;
-}*/
-
+}
 .hello {
     margin-left: 2.2em;
     font-family: monospace, sans-serif;
 }
-
+ 
 .firstpage {
     margin-left: 4em;
     font-family: monospace, sans-serif;
@@ -41,4 +47,11 @@
 .contactp {
     margin-left: 4em;
     font-family: monospace, sans-serif;
+}
+.omoss{
+    margin-left: 10em;
+}
+.jumbotron{
+    background: url(images/kibord.jpg) 100% no-repeat ;
+    background-size: 100%;
 }
