@@ -18,11 +18,17 @@ h1{
     font-family: monospace;
     width:44%;
 }
+<<<<<<< HEAD
 .navbar-default a {
     font-family: monospace, sans-serif;
+=======
+/*.navbar-default a {
+    font-family: monospace;
+>>>>>>> origin/master
     margin-left: 24em;
     text-decoration: none;
-}
+}*/
+
 .hello {
     margin-left: 2.2em;
     font-family: monospace, sans-serif;
