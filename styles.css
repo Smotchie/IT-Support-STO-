@@ -1,8 +1,8 @@
+
 .home-section{
     color: white;
    
 }
-
 h1{
     border-bottom: 3px solid white;
 }
@@ -18,17 +18,11 @@ h1{
     font-family: monospace;
     width:44%;
 }
-<<<<<<< HEAD
 .navbar-default a {
     font-family: monospace, sans-serif;
-=======
-/*.navbar-default a {
-    font-family: monospace;
->>>>>>> origin/master
     margin-left: 24em;
     text-decoration: none;
-}*/
-
+}
 .hello {
     margin-left: 2.2em;
     font-family: monospace, sans-serif;
@@ -58,6 +52,6 @@ h1{
     margin-left: 10em;
 }
 .jumbotron{
-    background: url(images/kibord.jpg) 100% no-repeat ;
+    background: url(images/keyboard2.png) 100% no-repeat ;
     background-size: 100%;
 }
