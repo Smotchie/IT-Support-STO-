@@ -52,6 +52,7 @@ h1{
     margin-left: 10em;
 }
 .jumbotron{
-    background: url(images/keyboard2.png) 100% no-repeat ;
+    background: url(Images/kibord.jpg) 100% no-repeat ;
     background-size: 100%;
+    margin-top: 3em;
 }
